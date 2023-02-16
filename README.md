@@ -26,10 +26,16 @@ Things you may want to cover:
 ### Add rails_admin
 ```
 gem 'rails_admin', '~> 3.0'
+```
+```
 yarn add rails_admin
+```
 
-# or
+Or use sprockets
+```
 RailsAdmin.config do |config|
   # config.asset_source = :webpacker
 end
 ```
+
+* [Base configuration](https://github.com/railsadminteam/rails_admin/wiki/Base-configuration)
