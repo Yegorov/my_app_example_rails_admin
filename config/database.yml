@@ -23,7 +23,11 @@ default: &default
 
 development:
   <<: *default
-  database: my_app_development
+  database: my_app
+  username: artem
+  password: artemartem
+  host: localhost
+
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
